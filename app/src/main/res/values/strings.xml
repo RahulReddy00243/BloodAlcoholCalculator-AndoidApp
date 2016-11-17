@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BloodAlcoholCalculator</string>
+    <string name="Switch_ON">M</string>
+    <string name="Switch_OFF">F</string>
 </resources>
