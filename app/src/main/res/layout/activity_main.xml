@@ -76,7 +76,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:id="@+id/RadioGroup">
 
             <RadioButton
                 android:text=" 1 OZ"
@@ -195,7 +196,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/Fifteen_dp">
+        android:padding="@dimen/ten_dp">
 
         <TextView
             android:text="Your Status :"
@@ -208,7 +209,6 @@
             android:layout_marginLeft="@dimen/Thirty_dp" />
 
         <TextView
-            android:text="Be Careful..."
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/StatusTV"
